@@ -48,3 +48,8 @@ p{
   color:#ebf0ff;
   background-color:#333333;
 }
+@media (max-widt:670px){
+  .btn{
+    width:100%;
+  }
+}
