@@ -1,60 +1,58 @@
 body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-image:url(seapicture.jpg);
-  background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    color: #333;
 }
 
-.image img{
-width:100%;
+.top-wrapper {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
 }
-.top-wrapper{
-  text-align: center;
-  height:400px;
+
+.main h1 {
+    font-size: 36px;
+    color: #333;
 }
-h1{
-  font-size:70px;
-  letter-spacing: 10px;
-  color:antiquewhite;
-  text-shadow: 1px 2px 3px #808080;
-  padding-top:10px;
+
+.main p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
 }
-p{
-  font-size:30px;
-  color:#333333;
-  margin-top:0px;
-  background-color: #fffaeb;
-  opacity: 0.5;
-  border-radius:5px;
+
+.maincontents {
+    margin-top: 20px;
 }
-.btn{
-  display: inline-block;
-  padding: 8px 24px;
-  text-align:center;
-  height: 60px;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  font-size: 28px;
-  color:#696767;
-  background-color:#fffaeb;
-  border-radius: 5px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  position:relative;
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #97c8c1;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 5px;
+    transition: background-color 0.3s;
 }
-.btn:hover{
-  color:#ebf0ff;
-  background-color:#333333;
+
+.btn:hover {
+    background-color: #86b0ab;
 }
-@media (max-width:670px){
-  .btn{
-    width:100%;
-  }
+
+/* ボタンごとの色分け（任意） */
+.btn.hiyake {
+    background-color: #f1a25c;
 }
-@media(max-width:670px){
-  p{
-    width:100%;
-  }
+.btn.hiyake:hover {
+    background-color: #d7894b;
+}
+
+.btn.kankou {
+    background-color: #6aa5e1;
+}
+.btn.kankou:hover {
+    background-color: #588ec5;
+}
