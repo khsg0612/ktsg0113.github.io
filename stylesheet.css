@@ -42,9 +42,8 @@ body {
     background-color: #86b0ab;
 }
 
-/* ボタンごとの色分け（任意） */
 .btn.hiyake {
-    background-color: #f1a25c;
+    background-color:#fffaeb;
 }
 .btn.hiyake:hover {
     background-color: #d7894b;
